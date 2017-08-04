@@ -11,7 +11,6 @@ import android.view.TextureView;
  * center crop video for android
  */
 
-@SuppressWarnings("DanglingJavadoc")
 public class CenterCropTextureView extends TextureView {
 
 
@@ -33,7 +32,7 @@ public class CenterCropTextureView extends TextureView {
         float scaleX = 1, scaleY = 1;
         float videoProportion = (float) videoWidth / (float) videoHeight;
         float screenProportion = (float) viewWidth / (float) viewHeight;
-        android.view.ViewGroup.LayoutParams lp =getLayoutParams();
+        android.view.ViewGroup.LayoutParams lp = getLayoutParams();
         if (videoWidth > viewWidth && videoHeight < viewHeight) {
             scaleX = videoProportion / screenProportion;
         } else if (videoWidth < viewWidth && videoHeight > viewHeight) {
