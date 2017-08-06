@@ -1,4 +1,4 @@
-# centercropvideoview android
+# CenterCropVideoView android
 A center crop video view for android that helps to crop the video from center.
 It uses TextureView class of android.view packge.
 
@@ -12,7 +12,7 @@ It uses TextureView class of android.view packge.
 
 # Usage
 
-	   <com.pantha.centercropvideoview.CenterCropTextureView
+	<com.pantha.centercropvideoview.CenterCropTextureView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
